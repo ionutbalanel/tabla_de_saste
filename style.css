@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 70px;
+}
+.container{	
+	width: 804px;
+	height: 804px;
+	background: beige;
+	border: 2px solid red;
+	margin: auto;	
+}
+.row{
+	display: flex;
+}
+.black{
+	width: 100px;
+	height: 100px;
+	background: black;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+.white{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	width: 100px;
+	height: 100px;
+	background: white;
+}
+.circle_blue{
+	background: blue;
+	border-radius: 50%;
+	width: 80px;
+    height: 80px;
+}
+.circle_red{
+	background: red;
+	border-radius: 50%;
+	width: 80px;
+    height: 80px;
+}
